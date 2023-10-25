@@ -5,7 +5,7 @@ led = Pin(25, Pin.OUT) #Built-in LED Pico
 try:
     while True:
         led.value(1) #Set led turn on
-        time.sleep(0.5) #Sleep 0.5s
+        time.sleep(0.6) #Sleep 0.5s
         led.value(0) # Setled turn off
         time.sleep(0.5) #Sleep 0.5s
 except:
